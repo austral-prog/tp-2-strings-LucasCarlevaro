@@ -6,5 +6,7 @@ def rectangle():
     altura = int(input("Altura: "))
     area = base * altura
     perimetro = (base + altura)*2
-    print(area)
-    print(perimetro)
+    print(f"Base: {base}")
+    print(f"Altura: {altura}")
+    print(f"Area: {area}")
+    print(f"Perimetro: {perimetro}")
